@@ -267,7 +267,7 @@
   .header-container {
     display: flex;
     justify-content: space-between;
-    align-items: centers;
+    align-items: center;
   }
   
   /* Footer
