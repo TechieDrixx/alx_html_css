@@ -211,10 +211,7 @@
     display: flex;
   }
 
-  .nav .nav-item + .nav-item {
-    margin: var(0 0 0 2rems);
-  }
-  
+ 
   .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -249,6 +246,11 @@
     background-color: var(--color-primary);
     width: 100%;
   }
+
+  .nav .nav-item + .nav-item {
+    margin: var(0 0 0 2rems);
+  }
+  
   
   /* Header
       ============================= */
