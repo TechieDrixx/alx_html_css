@@ -248,7 +248,7 @@
   }
 
   .nav .nav-item + .nav-item {
-    margin: var(0 0 0 2rems);
+    margin: 0 0 0 2rems;
   }
   
   
