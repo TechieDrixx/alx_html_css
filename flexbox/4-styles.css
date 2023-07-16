@@ -357,7 +357,7 @@
   
   [class*='col-'] {
   
-    padding: 0.5rem;
+    margin: 1rem;
     box-sizing: border-box;
   }
   
