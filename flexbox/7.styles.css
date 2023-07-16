@@ -201,22 +201,26 @@
   
   /* Navbar
       ============================= */
-
-  
+     :root {
+    --nav-item-margin: 0 0 0 2rem;
+     }  
   .nav {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
+    display: flex;
   }
-  
+
+  .nav .nav-item + .nav-item {
+    margin: var(--nav-item-margin);
+  }
+ 
   .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
   }
   
   .nav .nav-link {
@@ -245,6 +249,9 @@
     background-color: var(--color-primary);
     width: 100%;
   }
+
+  
+  
   
   /* Header
       ============================= */
