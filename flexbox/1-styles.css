@@ -1,0 +1,36 @@
+/**
+   * Add the correct display in IE 10+.
+   */
+  
+   template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden]{
+    display: none;
+  }
+  
+  /* Grid section */
+  
+  .row {
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  
+  [class*='col-'] {
+  
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
