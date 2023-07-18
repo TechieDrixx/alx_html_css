@@ -1,0 +1,248 @@
+.headhero{
+    background-image: url("img/Object.png");
+}
+.nav .nav-menu{
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.nav .nav-menu li{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+.nav .nav-menu a{
+    color: white;
+    text-decoration: none;
+}
+.heromain .hero1{
+    flex-direction: column;
+   text-align: center;
+   margin-top: 156px;
+}
+
+.heromain .hero1 h1{
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .heromain .hero1 p{
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        word-spacing: 35px;
+        margin-top: -35px;
+        }
+        .heromain .hero1 button{
+            color: white;
+            font-size: 10px;
+            font-weight: bold;
+            background: rgb(205, 39, 205);
+            width: 128px; 
+            height: 33px;
+            border-radius: 16px;
+            text-transform: uppercase;
+            margin-left: 30px;
+            margin-top: 15px;
+            
+            }
+            .heromain .tutt{
+                color: rgb(205, 39, 205);
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-top: 230px;
+                    text-align: center;
+            }
+            .heromain .tutt h3 span{
+                color:white;;
+                font-size: 16px;
+                font-weight: bold;
+                }
+            
+           
+                .heromain .tutors{
+                    flex-direction: row;
+                display: flex;
+                justify-content: center;
+                position: relative;
+             
+                }
+               
+               
+                    .heromain .tutors .col{
+                        margin: 35px;
+                        color: white;
+                        text-align: center;   
+                    }
+                    .heromain .tutors .col h5{
+                        margin: 35px;
+                        color: white;
+                        text-align: center;
+                        margin-top: 0px;
+                       
+                    }
+                    .heromain .tutors .col p{
+                        color: rgb(190, 176, 176);
+                        text-align: center;
+                        margin-top: -12px;
+                        font-size: 12px;
+                       
+                    }
+    /* quote section */
+    #quote{
+        background:rgb(205, 39, 205);
+        color: white;
+        height: 300px;
+    }
+    #quote img{
+       margin-left: 140px;
+    }
+    #quote .qcap{
+text-align: center;
+margin-top: -80px;
+margin-left: -200px;
+text-indent: 0%;
+    }
+    #quote .qcap h3{
+        text-align: center;
+        margin-left: -300px;
+            }
+            #quote .qcap p{
+                text-align: center;
+                margin-left: -300px;
+                    }
+            #quote .qcap p{
+                text-align: center;
+                margin-left: -300px;
+                margin-top: -12px;
+                    }
+                /* ++++++video section +++++++++ */
+                
+                #videos .vidhead span{
+                    color:rgb(205, 39, 205);; 
+                }
+                #videos .vidhead h2{
+                    color:black;
+                    margin-top: 50px;
+                    text-align: center;
+                }
+                #videos .vidcontainer{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 60px;
+                }
+                #videos .vidcontainer .vid{
+                    margin-left: 40px;
+                    margin-right: 0px;
+                    padding:0px;
+                }
+                #videos .vidcontainer .vid .play{
+                    
+                    margin-top: -470px;
+                    text-align: center;
+                }
+                #videos .vidcontainer .vid h4{
+                    text-align: center;
+                    margin-top: 0px;
+                }
+                #videos .vidcontainer .vid p{
+                    text-align: center;
+                    margin-top: 0px;
+                    color: rgb(90, 77, 77);
+                    font-weight: bold;
+                }
+                #videos .vidcontainer .vid .stars h6{
+                    text-align: center;
+                    margin-top: -20px;
+                    margin-left: -150px;
+                    color: rgb(205, 39, 205); ;
+                }
+
+                /* membership section */
+                #membership h2{
+                    color:white;
+                    text-align: center;
+                    margin-bottom: -56px;
+                }
+                #membership span{
+                    color:rgb(205, 39, 205); ;
+                    text-align: center;
+                    margin-bottom: -56px;
+                }
+                #membership .members{
+                    flex-direction: row;
+                    display: flex;
+                    background:rgb(5, 5, 30) ;
+                    color: white;
+                    height: 400px;
+                    justify-content: center;
+                   
+                }
+                #membership .members img{
+                    padding:  45px;
+                    padding-right: 120px;
+                    padding-left: 120px;
+                    margin-right: 0px;
+                    text-align: center;
+                    margin-top: 60px;
+                }
+            #membership button{
+                color: red;
+                margin-left: 600px;
+                margin-top: -634px;
+                background:rgb(205, 39, 205);  ;
+                height: 34px;
+                border-radius: 15px;
+            }
+            
+            #membership .members h4{
+                margin-top: -12px;
+                text-align: center;
+            }
+        
+        #membership .members p{
+            margin-top: -12px;
+            text-align: center;
+            color: rgb(79, 78, 78);  
+             
+        }
+        /* faq section */
+        #faq h2{
+          text-align: center;
+        }
+        .faqcontainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+        .faqcontainer .row{
+  width: 300px;
+  height:600px ;
+  padding: 95px;
+  padding-top: 20px;
+        }
+        .faqcontainer .row p{
+            color: rgb(118, 115, 115);
+            
+                  }
+
+                  /* foooter */
+                  .foot .row{
+                    background: rgb(2, 2, 26);
+                    height: 200px;
+                  }
+                  .foot .row p{
+                   color: white;
+                   text-align: center;
+                   margin-bottom: 0px;
+                  }
+                  .foot .row a{
+                    color: white;
+                   
+                   }
+
+        
